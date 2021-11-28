@@ -1,6 +1,7 @@
 # convertAPI-python
 
-This repository is used to convert files to desired formats that you are comfortable with. It depends on [CONVERTAPI](https://www.convertapi.com) REST-API. 
+This repository is used to convert files to desired formats that you are comfortable with. It depends on [CONVERTAPI](https://www.convertapi.com) REST-API.
+For more details on supported conversions: https://www.convertapi.com/conversions
 
 ### Prerequisite:
 * python 3.7 or later
@@ -35,3 +36,4 @@ pip3 install --upgrade convertapi
 └── README.md
 ```
 
+Please feel free to contribute / re-use.
