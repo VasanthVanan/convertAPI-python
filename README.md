@@ -9,18 +9,21 @@ Click here for more details on supported conversions: https://www.convertapi.com
 * convertapi
 
 ### Steps
-1. Clone https://github.com/buster-bayliss/convertAPI-python.git
+1. Clone the repository:
+``` 
+git clone https://github.com/buster-bayliss/convertAPI-python.git
+```
 2. Install convertapi 
 ```
 pip3 install --upgrade convertapi 
 ```
 3. Sign up convertapi and get your `API-SECRET`
 4. Place files to be converted in `files-to-convert` location
-4. run `python3 convert.py [extension-1] [extension-2]` with two parameters for source and destination formats/extensions.
+5. run `python3 convert.py [extension-1] [extension-2]` with two parameters for source and destination formats/extensions.
 ```
 Example: python3 convert.py docx pdf
 ```
-5. After execution, converted files would be available in `./converted-files` folder
+6. After execution, converted files would be available in `./converted-files` folder
 
 ### File Structure:
 
