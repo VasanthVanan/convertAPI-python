@@ -21,8 +21,12 @@ if(sourceFilesPaths):
 
 		print("converting file "+str(count)+"..")
 
-		convertapi.convert(sourceFormat, { 
-			'File': filePath 
-		}).file.save(getDestinationLocation+'converted-file-'+str(count)+"."+destinationFormat)
+		convertapi.convert(destinationFormat, {
+		    'File': filePath
+		}, from_format = sourceFormat).save_files(getDestinationLocation)
 
 		count = count + 1
+else:
+	print("There is No such files available.\nPlease Check the format properly.")
+	print("See supported conversions on https://www.convertapi.com/conversions")
+
