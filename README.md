@@ -4,9 +4,13 @@ This repository is used to convert files to desired formats that you are comfort
 <br><br>
 Click here for more details on supported conversions: https://www.convertapi.com/conversions
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### Prerequisite:
 * python 3.7 or later
 * convertapi
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Steps
 1. Clone the repository:
@@ -24,6 +28,8 @@ pip3 install --upgrade convertapi
 Example: python3 convert.py docx pdf
 ```
 6. After execution, converted files would be available in `./converted-files` folder
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### File Structure:
 
